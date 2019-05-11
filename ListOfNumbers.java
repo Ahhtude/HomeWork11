@@ -47,7 +47,6 @@ public class ListOfNumbers {
             else if (file2.length() == 0) throw new ExceptionForTest("file is empty");
             else {
                 try {
-
                     String text =null;
                     BufferedReader reader = new BufferedReader(new FileReader(fileLocation));
                     while ((text = reader.readLine()) != null){
