@@ -25,6 +25,7 @@ public class ListOfNumbers {
             System.out.println("file not created!");
         }
     }
+
     else {
             try {
                 BufferedWriter fileWriter = new BufferedWriter(new FileWriter(file));
